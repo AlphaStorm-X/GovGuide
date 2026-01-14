@@ -2,6 +2,7 @@
 **Simple Steps for Public Services - Premium Edition**
 
 GovGuide is a modern, feature-rich web application designed to simplify government services for Indian citizens. It provides clear, step-by-step guidance, document checklists, fee information, and AI assistance for 10 essential government services.
+**Live Demo**: https://govguide-in.netlify.app/
 
 > **Note**: This is a **Simulation Mode** demo. No real data is sent to government portals.
 
@@ -127,28 +128,7 @@ The optimized build will be in the `dist` folder.
 
 ---
 
-## 📂 Project Structure
 
-```
-src/
-├── components/          # Reusable UI components
-│   ├── Hero.jsx        # Landing page hero section
-│   ├── Footer.jsx      # App footer
-│   ├── Navbar.jsx      # Navigation bar
-│   ├── ServiceCard.jsx # Service display card
-│   ├── AIAssistant.jsx # AI chat interface
-│   └── Layout.jsx      # Page layout wrapper
-├── pages/              # Main application screens
-│   ├── Home.jsx        # Homepage with services
-│   ├── ServiceDetails.jsx  # Individual service page
-│   └── Stats.jsx       # Analytics dashboard
-├── data/               # Mock data
-│   └── mockServices.js # Service information
-├── utils/              # Utility functions
-│   └── aiHandler.js    # AI response logic
-├── main.jsx           # App entry point
-└── index.css          # Global styles
-```
 
 ---
 
